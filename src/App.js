@@ -1,16 +1,20 @@
 import React from 'react';
-import WorkInProgress from './static/images/work-in-progress-wip.jpg';
-import informations from './informations';
-import MyInformations from './components/MyInformations';
+import { ThemeProvider } from '@material-ui/core/styles';
+
+import { mainTheme } from './themeProvider';
+
+import Header from './components/Header';
+import CoverImage from './components/CoverImage';
 
 
 const App = () => {
-  return (
-    <div style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      {/* <MyInformations /> */}
-      <img src={WorkInProgress} alt='work-in-progress'/>
-    </div>
-  )
-}
+
+    return (
+        <ThemeProvider theme={mainTheme}>
+            <CoverImage />
+            <Header />
+        </ThemeProvider>
+    );
+};
 
 export default App;
