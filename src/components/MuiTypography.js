@@ -8,20 +8,23 @@ const StyledTypography = withStyles(theme => ({
         marginRight: theme.spacing(2),
         marginLeft: theme.spacing(2),
     },
-    // colorTextPrimary: {
-    //     color: theme.palette.colors.black
-    // },
-    // colorTextSecondary: {
-    //     color: theme.palette.colors.white,
-    // },
+    colorTextPrimary: {
+        color: theme.palette.colors.active
+    },
+    colorTextSecondary: {
+        color: theme.palette.colors.white,
+    },
     h1: {
-        color: theme.palette.colors.active,
         fontFamily: 'Neil',
         fontSize: '8rem',
         margin: 0,
     },
     h2: {
         fontSize: '3rem',
+    },
+    h3: {
+        fontFamily: 'Neil',
+        fontSize: '4rem',
     },
     body1: {
         fontSize: '20px',

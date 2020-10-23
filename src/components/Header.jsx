@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => {
     const secondary = theme.palette.colors.secondary;
     return {
         header: {
-            position: 'absolute',
+            position: 'fixed',
             top: 0,
             height: '140px',
             width: '100%',
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => {
             backgroundImage: `linear-gradient(${primary}, ${secondary})`,
             transitionProperty: 'height, transform',
             transitionDuration: '0.5s',
-            boxShadow: `10px 10px 20px ${theme.palette.colors.active}`,
+            // boxShadow: `10px 10px 20px ${theme.palette.colors.active}`,
             '& .menuItems': {
                 position: 'absolute',
                 top: -1000,
@@ -38,23 +38,20 @@ const useStyles = makeStyles((theme) => {
                 }
             },
         },
-        headerOpen: {
-            position: 'absolute',
-            top: 0,
-            width: '100%',
-            transformOrigin: 'top right',
-            backgroundImage: `linear-gradient(90deg, ${primary}, ${secondary})`,
-            // transitionProperty: 'height transform',
-            // transitionDuration: '0.5s',
-            boxShadow: `2px 2px 15px black`,
-            height: '200px',
-            transform: 'skewY(10deg)',
-        },
+        // headerOpen: {
+        //     position: 'absolute',
+        //     top: 0,
+        //     width: '100%',
+        //     transformOrigin: 'top right',
+        //     backgroundImage: `linear-gradient(90deg, ${primary}, ${secondary})`,
+        //     boxShadow: `2px 2px 15px black`,
+        //     height: '200px',
+        //     transform: 'skewY(10deg)',
+        // },
         items: {
             display: 'flex',
             flexDirection: 'row',
             marginTop: theme.spacing(2)
-            // width: '100%'
         },
         link: {
             '&:hover': {
@@ -84,7 +81,7 @@ const Header = () => {
                 <div className={classes.items}>
                     <Typography className={classes.link}>A propos</Typography>
                     <Typography className={classes.link}>Projets</Typography>
-                    <Typography className={classes.link}>Formations</Typography>
+                    <Typography className={classes.link}>Me contacter</Typography>
                     <Typography className={classes.link}>
                         <a className={classes.a} href={pdfCV} download="CV_CHARDONNET.pdf">CV</a>
                     </Typography>

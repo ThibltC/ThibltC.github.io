@@ -26,7 +26,7 @@ const useStyles = makeStyles(() => ({
 const ParallaxGenerator = (props) => {
 
     const { src, multiplyOffset = 50, heightImg = 100, children = <div /> } = props;
-    
+
     const classes = useStyles();
 
     const [offset, setOffset] = useState(0);
@@ -40,7 +40,6 @@ const ParallaxGenerator = (props) => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-
 
     return (
         <div className={classes.root} style={{ height: `${heightImg}vh` }}>
