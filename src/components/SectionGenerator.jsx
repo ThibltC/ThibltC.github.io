@@ -5,13 +5,14 @@ import Typography from './MuiTypography';
 
 import divider from '../static/images/2461548-e09200.svg';
 
-const useStyles = makeStyles(() => {
+const useStyles = makeStyles((theme) => {
     return {
         title: {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
+            // padding: theme.spacing(4),
         },
         divider: {
             width: '270px',

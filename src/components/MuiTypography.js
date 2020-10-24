@@ -28,6 +28,9 @@ const StyledTypography = withStyles(theme => ({
     },
     body1: {
         fontSize: '20px',
+    },
+    subtitle1: {
+        fontSize: '2rem',
     }
 }))(Typography);
 

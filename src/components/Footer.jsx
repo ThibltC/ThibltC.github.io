@@ -29,12 +29,12 @@ const Footer = () => {
 
     return (
         <div className={classes.root}>
-            <Typography variant='caption' color='textSecondary'>Dernière mise à jour 21/10/2020</Typography>
-            <Typography variant='caption' color='textSecondary'>© 2020 Portfolio Thibault Chardonnet</Typography>
             <div>
                 <LinkedInIcon style={{ color: theme.palette.colors.primary }} />
                 <GitHubIcon style={{ color: theme.palette.colors.primary }} />
             </div>
+            <Typography variant='caption' color='textSecondary'>Dernière mise à jour {Date.now()}</Typography>
+            <Typography variant='caption' color='textSecondary'>© 2020 Portfolio Thibault CHARDONNET</Typography>
         </div>
     );
 };
