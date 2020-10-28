@@ -10,16 +10,16 @@ const useSizeWindow = () => {
     const under600 = useMediaQuery('(max-width:600px)');
 
     const [sizes, setSizes] = useState({
-        isL: true,
-        isM: false,
-        isS: false
+        L: true,
+        M: false,
+        S: false
     })
 
     useEffect(() => {
-        const isL = over1000;
-        const isM = Boolean(under1000 && over600);
-        const isS = under600;
-        setSizes({ isL, isM, isS })
+        const L = over1000;
+        const M = Boolean(under1000 && over600);
+        const S = under600;
+        setSizes({ L, M, S })
     }, [over1000, under1000, over600, under600])
 
     return sizes

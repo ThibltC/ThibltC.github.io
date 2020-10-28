@@ -16,11 +16,13 @@ const StyledTypography = withStyles(theme => ({
     },
     h1: {
         fontFamily: 'Neil',
-        fontSize: '8rem',
+        fontSize: 'max(10vw, 70px)',
         margin: 0,
+        textAlign: 'center'
     },
     h2: {
-        fontSize: '3rem',
+        fontSize: 'max(4vw, 25px)',
+        textAlign: 'center'
     },
     h3: {
         fontFamily: 'Neil',

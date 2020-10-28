@@ -20,7 +20,7 @@ const App = () => {
     return (
         <ThemeProvider theme={mainTheme}>
             <CoverImage />
-            <AboutMe />
+            {/* <AboutMe /> */}
             <Projects />
             <ContactMe />
             <Header />
