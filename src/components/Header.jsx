@@ -1,9 +1,8 @@
-import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 import pdfCV from '../static/CV_TC_250920.pdf';
 
-import Typography from './MuiTypography';
+import Typography from '../materialUI/MuiTypography';
 
 
 const useStyles = makeStyles((theme) => {
@@ -20,7 +19,6 @@ const useStyles = makeStyles((theme) => {
             backgroundImage: `linear-gradient(${primary}, ${secondary})`,
             transitionProperty: 'height, transform',
             transitionDuration: '0.5s',
-            // boxShadow: `10px 10px 20px ${theme.palette.colors.active}`,
             '& .menuItems': {
                 position: 'absolute',
                 top: -1000,

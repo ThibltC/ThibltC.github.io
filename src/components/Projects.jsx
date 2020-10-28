@@ -6,7 +6,7 @@ import Section from './SectionGenerator';
 import Project from './Project';
 
 import imgProjet1 from '../static/images/donutsmovies.jpg'
-import imgProjet2 from '../static/images/myfrenchyconciergerie.jpg'
+import imgProjet2 from '../static/images/image_indisponible.jpg'
 
 const useStyles = makeStyles(theme => ({
     root: {

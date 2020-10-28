@@ -1,4 +1,3 @@
-import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 import { Fade } from '@material-ui/core';
@@ -6,9 +5,9 @@ import { Fade } from '@material-ui/core';
 import HeaderImage from '../static/images/main.jpg';
 
 import Parallax from './ParallaxGenerator';
-import Typography from './MuiTypography';
+import Typography from '../materialUI/MuiTypography';
 
-const useStyles = makeStyles((theme) => {
+const useStyles = makeStyles(() => {
     return {
         center: {
             display: 'flex',

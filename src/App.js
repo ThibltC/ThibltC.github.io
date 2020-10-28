@@ -1,5 +1,6 @@
-import React from 'react';
 import { ThemeProvider } from '@material-ui/core/styles';
+
+import useSizeWindow from './hooks/useSizeWindow';
 
 import { mainTheme } from './themeProvider';
 
@@ -13,6 +14,9 @@ import Footer from './components/Footer';
 
 const App = () => {
 
+    const size = useSizeWindow();
+    console.log(size);
+    
     return (
         <ThemeProvider theme={mainTheme}>
             <CoverImage />

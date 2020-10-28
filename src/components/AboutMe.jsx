@@ -1,13 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import Typography from './MuiTypography';
+import Typography from '../materialUI/MuiTypography';
 import Section from './SectionGenerator';
 
 import picture from '../static/images/20200913_184419.jpg';
 
 
 const useStyles = makeStyles((theme) => {
+    const { primary, secondary } = theme.palette.colors;
     return {
         title: {
             display: 'flex',
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            background: theme.palette.colors.primary,
+            backgroundImage: `linear-gradient(45deg, ${secondary}, ${primary})`,
             width: '100%'
         },
         container: {

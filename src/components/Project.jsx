@@ -1,11 +1,5 @@
-import React, { useState } from 'react';
-import { Redirect } from 'react-router-dom'
-
-import useRedirection from './useRedirection';
-
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from './MuiTypography';
-
+import Typography from '../materialUI/MuiTypography';
 
 
 const useStyles = makeStyles(theme => ({
@@ -52,16 +46,9 @@ const Project = (props) => {
 
     const classes = useStyles();
 
-    const [openProject, setUrl] = useRedirection();
-
-    const goToProject = () => {
-        setUrl({ to: url });
-        return openProject;
-    };
-
 
     return (
-        <div className={classes.root} onClick={goToProject}>
+        <div className={classes.root} onClick={() => window.open(url)}>
             <img src={src} alt='img-project' className={classes.image} />
             <Typography variant='subtitle1' className={classes.title}>{title}</Typography>
         </div>

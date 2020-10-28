@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import Typography from './MuiTypography';
+import Typography from '../materialUI/MuiTypography';
 
 import divider from '../static/images/2461548-e09200.svg';
 
