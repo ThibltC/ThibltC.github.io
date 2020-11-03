@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
         '& h6': {
             opacity: 0,
             transition: 'opacity 0.5s',
-        },    
+        },
         '&:hover h6': {
             opacity: 1,
         }
@@ -48,7 +48,7 @@ const Project = (props) => {
 
 
     return (
-        <div className={classes.root} onClick={() => window.open(url)}>
+        <div className={classes.root} onClick={() => url && window.open(url)}>
             <img src={src} alt='img-project' className={classes.image} />
             <Typography variant='subtitle1' className={classes.title}>{title}</Typography>
         </div>

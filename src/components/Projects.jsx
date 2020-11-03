@@ -21,11 +21,10 @@ const Projects = () => {
 
     const classes = useStyles();
 
-
     return (
-        <Section title='Projets'>
+        <Section title='Projets' id='projects'>
             <div className={classes.root}>
-                <Project src={imgProjet1} title='Donuts Movies' url=''/>
+                <Project src={imgProjet1} title='Donuts Movies' url='https://donutsmovies.herokuapp.com'/>
                 <Project src={imgProjet2} title='My Frenchy Conciergerie' url=''/>
             </div>
         </Section>

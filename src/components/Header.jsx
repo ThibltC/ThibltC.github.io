@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import pdfCV from '../static/CV_TC_250920.pdf';
 
 import Typography from '../materialUI/MuiTypography';
-
+import ScrollTo from './ScrollTo';
 
 const useStyles = makeStyles((theme) => {
     const primary = theme.palette.colors.primary;
@@ -77,9 +77,15 @@ const Header = () => {
         <div className={classes.header}>
             <div className='menuItems' >
                 <div className={classes.items}>
-                    <Typography className={classes.link}>A propos</Typography>
-                    <Typography className={classes.link}>Projets</Typography>
-                    <Typography className={classes.link}>Me contacter</Typography>
+                    <ScrollTo id_anchor='aboutUs'>
+                        <Typography className={classes.link}>A propos</Typography>
+                    </ScrollTo>
+                    <ScrollTo id_anchor='projects'>
+                        <Typography className={classes.link}>Projets</Typography>
+                    </ScrollTo>
+                    <ScrollTo id_anchor='contactMe'>
+                        <Typography className={classes.link}>Me contacter</Typography>
+                    </ScrollTo>
                     <Typography className={classes.link}>
                         <a className={classes.a} href={pdfCV} download="CV_CHARDONNET.pdf">CV</a>
                     </Typography>

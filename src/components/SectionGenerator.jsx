@@ -23,13 +23,13 @@ const useStyles = makeStyles((theme) => {
 
 const SectionGenerator = (props) => {
 
-    const { title, children } = props;
+    const { title, children, id } = props;
 
     const classes = useStyles();
 
 
     return (
-        <section className={classes.title}>
+        <section className={classes.title} id={id}>
             <img src={divider} alt='divider' className={classes.divider} />
             <Typography variant='h3' >{title}</Typography>
             {children}

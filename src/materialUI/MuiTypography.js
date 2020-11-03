@@ -29,7 +29,7 @@ const StyledTypography = withStyles(theme => ({
         fontSize: '4rem',
     },
     body1: {
-        fontSize: '20px',
+        fontSize: '15px',
     },
     subtitle1: {
         fontSize: '2rem',
