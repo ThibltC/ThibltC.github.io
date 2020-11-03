@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.795991f2.chunk.css",
-    "main.js": "/static/js/main.96c51638.chunk.js",
-    "main.js.map": "/static/js/main.96c51638.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6aa2053a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6aa2053a.js.map",
-    "static/js/2.7f208332.chunk.js": "/static/js/2.7f208332.chunk.js",
-    "static/js/2.7f208332.chunk.js.map": "/static/js/2.7f208332.chunk.js.map",
+    "main.css": "/static/css/main.d6698c9d.chunk.css",
+    "main.js": "/static/js/main.b79d2b03.chunk.js",
+    "main.js.map": "/static/js/main.b79d2b03.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.93b57f0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.93b57f0d.js.map",
+    "static/js/2.a63dc794.chunk.js": "/static/js/2.a63dc794.chunk.js",
+    "static/js/2.a63dc794.chunk.js.map": "/static/js/2.a63dc794.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b3ba5cc10cbe6287da0cb76cbc01b26.js": "/precache-manifest.0b3ba5cc10cbe6287da0cb76cbc01b26.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.795991f2.chunk.css.map": "/static/css/main.795991f2.chunk.css.map",
-    "static/js/2.7f208332.chunk.js.LICENSE.txt": "/static/js/2.7f208332.chunk.js.LICENSE.txt",
-    "static/media/image_profil_github.jpeg": "/static/media/image_profil_github.c00d08cf.jpeg",
-    "static/media/work-in-progress-wip.jpg": "/static/media/work-in-progress-wip.17b41a7d.jpg"
+    "static/css/main.d6698c9d.chunk.css.map": "/static/css/main.d6698c9d.chunk.css.map",
+    "static/js/2.a63dc794.chunk.js.LICENSE.txt": "/static/js/2.a63dc794.chunk.js.LICENSE.txt",
+    "static/media/20200913_184419.5fc0b586.jpg": "/static/media/20200913_184419.5fc0b586.jpg",
+    "static/media/2461548-e09200.ef6c2e29.svg": "/static/media/2461548-e09200.ef6c2e29.svg",
+    "static/media/CV_TC_250920.9f0ef0ae.pdf": "/static/media/CV_TC_250920.9f0ef0ae.pdf",
+    "static/media/donutsmovies.87256bb5.jpg": "/static/media/donutsmovies.87256bb5.jpg",
+    "static/media/image_indisponible.e14befb0.jpg": "/static/media/image_indisponible.e14befb0.jpg",
+    "static/media/main.c75762ff.jpg": "/static/media/main.c75762ff.jpg",
+    "static/media/montfuji.31503c80.jpg": "/static/media/montfuji.31503c80.jpg",
+    "static/media/index.css": "/static/media/wremena.regular.274ceb17.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6aa2053a.js",
-    "static/js/2.7f208332.chunk.js",
-    "static/css/main.795991f2.chunk.css",
-    "static/js/main.96c51638.chunk.js"
+    "static/js/runtime-main.93b57f0d.js",
+    "static/js/2.a63dc794.chunk.js",
+    "static/css/main.d6698c9d.chunk.css",
+    "static/js/main.b79d2b03.chunk.js"
   ]
 }
