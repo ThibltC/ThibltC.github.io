@@ -25,7 +25,7 @@ const Projects = () => {
         <Section title='Projets' id='projects'>
             <div className={classes.root}>
                 <Project src={imgProjet1} title='Donuts Movies' url='https://donutsmovies.herokuapp.com'/>
-                <Project src={imgProjet2} title='My Frenchy Conciergerie' url=''/>
+         //       <Project src={imgProjet2} title='My Frenchy Conciergerie' url=''/>
             </div>
         </Section>
     );
